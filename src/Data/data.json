@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dandy Chair",
+    "price": "230",
+    "image": "./assets/inventory/photo.png"
+  },
+  {
+    "id": 2,
+    "name": "Dandy Chair",
+    "price": "180",
+    "image": "./assets/inventory/photo-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dandy Chair",
+    "price": "320",
+    "image": "./assets/inventory/photo-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Dandy Chair",
+    "price": "100",
+    "image": "./assets/inventory/photo-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Dandy Chair",
+    "price": "150",
+    "image": "./assets/inventory/photo-6.png"
+  },
+  {
+    "id": 6,
+    "name": "Dandy Chair",
+    "price": "200",
+    "image": "./assets/inventory/photo-7.png"
+  }
+]

@@ -1,0 +1,125 @@
+footer {
+  width: 100vw;
+  height: fit-content;
+  background: var(--dark-primary, #2a254b);
+  .footer-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+    .f-top-container {
+      padding-top: 5rem;
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .f-element {
+        width: 20%;
+        @media (max-width: 800px) {
+          width: 50%;
+          padding: 2rem;
+        }
+        h4 {
+          color: var(--white, #fff);
+          font-family: ClashDisplay-Light;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 1rem;
+        }
+
+        li {
+          color: var(--white, #fff);
+          font-family: Satoshi-Light;
+          font-size: 1.25rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          list-style: none;
+          padding: 0.5rem 0;
+        }
+      }
+      .mailing-list {
+        width: 40%;
+        @media (max-width: 800px) {
+          width: 100%;
+        }
+        .input-button {
+          background: rgba(255, 255, 255, 0.15);
+          width: 100%;
+          height: 5rem;
+          display: flex;
+          margin-top: 2rem;
+          input {
+            width: 70%;
+            outline: 0px;
+            border: 0px;
+            font-family: Satoshi-Regular;
+            padding: 1rem 1.5rem;
+            font-size: 1.3rem;
+            color: var(--white, #fff);
+            background: rgba(255, 255, 255, 0.15);
+          }
+          input::placeholder {
+            color: var(--white, #fff);
+            font-family: Satoshi-Regular;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.5;
+          }
+          button {
+            width: 30%;
+            height: 100%;
+            outline: 0px;
+            border: 0px;
+            background: var(--white, #fff);
+            color: #2a254b;
+            /* Body/Medium */
+            font-family: Satoshi-Regular;
+            font-size: 1.3rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            transition: 0.2s ease-in;
+          }
+          button:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+    .f-bottom-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border-top: 1px solid #4e4d93;
+      margin-top: 5rem;
+      padding-bottom: 2rem;
+      @media (max-width: 800px) {
+        text-align: center;
+        padding: 2rem 0;
+      }
+      h2 {
+        color: var(--white, #fff);
+        font-family: Satoshi-Regular;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 2rem;
+      }
+      .f-bottom-elements {
+        padding-top: 2rem;
+        display: flex;
+        svg {
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
+}

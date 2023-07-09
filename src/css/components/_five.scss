@@ -1,0 +1,80 @@
+.five-container {
+  width: 100vw;
+  height: 80vh;
+  background: #fff;
+  display: flex;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+  .fc-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+    .fc-left-container {
+      width: 80%;
+      height: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .fc-left-container-top {
+        width: 70%;
+
+        h1 {
+          color: #2a254b;
+          font-family: ClashDisplay-Regular;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+        }
+        p {
+          color: #505977;
+          font-family: Satoshi-Regular;
+          font-size: 1.5rem;
+          margin-top: 2rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .fc-left-container-bottom {
+        button {
+          border: 0px;
+          display: inline-flex;
+          padding: 1.5rem 3rem;
+          align-items: flex-start;
+          gap: 0.625rem;
+          color: #2a254b;
+          /* Body/Medium */
+          font-family: Satoshi-Regular;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          transition: 0.2s ease-in-out;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .fc-right {
+    width: 50%;
+    height: 100%;
+    background: url("../assets/image.png"), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: contain;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+}

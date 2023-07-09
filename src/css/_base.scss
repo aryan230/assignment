@@ -1,0 +1,42 @@
+:root {
+  --color-primary: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  @media (max-width: 800px) {
+    font-size: 45%;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 50%;
+  }
+}
+
+.link-hidder {
+  text-decoration: none;
+}
+
+.fixed-element {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  color: black;
+}
