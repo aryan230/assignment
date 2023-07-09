@@ -26,7 +26,9 @@
     }
     button {
       border: 0px;
-      display: inline-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 1.5rem 3rem;
       align-items: flex-start;
       gap: 0.625rem;
@@ -39,6 +41,7 @@
       line-height: 150%;
       transition: 0.2s ease-in-out;
       margin: 2rem 1rem;
+
       &:hover {
         cursor: pointer;
         transform: scale(1.1);
@@ -97,6 +100,8 @@
     width: 80%;
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 2rem;
     @media (max-width: 800px) {
@@ -105,10 +110,13 @@
     }
     .t3-element {
       padding: 2rem 1rem;
+      @media (max-width: 800px) {
+        padding: 1rem;
+      }
       img {
         width: 24rem;
         @media (max-width: 800px) {
-          width: 19rem;
+          width: 16rem;
         }
       }
       h4 {

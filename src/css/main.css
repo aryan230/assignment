@@ -394,6 +394,11 @@ nav ul li {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 800px) {
+  .main-container .main-container-inside {
+    width: 90%;
+  }
+}
 .main-container .main-container-inside .main-c-left {
   width: 60%;
   height: 100%;
@@ -1353,7 +1358,7 @@ header .header-container .right-links .dropdown-menu:hover ul li:hover {
 @media (max-width: 800px) {
   .main-container-product .main-left {
     width: 100%;
-    height: 40%;
+    height: 40vh;
   }
 }
 .main-container-product .main-right {
@@ -1770,7 +1775,9 @@ header .header-container .right-links .dropdown-menu:hover ul li:hover {
 }
 .top-all-container .top-filter-mobile button {
   border: 0px;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.5rem 3rem;
   align-items: flex-start;
   gap: 0.625rem;
@@ -1841,6 +1848,8 @@ header .header-container .right-links .dropdown-menu:hover ul li:hover {
   width: 80%;
   height: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 2rem;
 }
@@ -1854,12 +1863,17 @@ header .header-container .right-links .dropdown-menu:hover ul li:hover {
   padding: 2rem 1rem;
   transition: 0.2s ease-in-out;
 }
+@media (max-width: 800px) {
+  .top-all-container-inside .tpa-right .t3-element {
+    padding: 1rem;
+  }
+}
 .top-all-container-inside .tpa-right .t3-element img {
   width: 24rem;
 }
 @media (max-width: 800px) {
   .top-all-container-inside .tpa-right .t3-element img {
-    width: 19rem;
+    width: 16rem;
   }
 }
 .top-all-container-inside .tpa-right .t3-element h4 {

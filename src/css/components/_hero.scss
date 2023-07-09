@@ -11,6 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 800px) {
+      width: 90%;
+    }
     .main-c-left {
       width: 60%;
       height: 100%;
